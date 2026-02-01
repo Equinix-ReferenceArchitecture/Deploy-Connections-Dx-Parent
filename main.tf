@@ -1,5 +1,5 @@
 module "Deploy-DualNE2AWS-DualMetro-Parent" {
-  source ="github.com/Equinix-ReferenceArchitecture/Deploy-Child-DualNE2AWS-VC.git"
+  source ="github.com/Equinix-ReferenceArchitecture/New-Deploy-NE-to-AWS-Redundant.git"
 
 equinix_client_id     = var.equinix_client_id
 equinix_client_secret = var.equinix_client_secret
