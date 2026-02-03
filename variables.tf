@@ -16,12 +16,12 @@ variable "authentication_key" {
   description = "AWS Account ID"
   type        = string
 }
-variable "seller_region" {
+variable "primary_aws_region" {
   description = "Seller Region"
   type        = string
 }
 
-variable "seller_region_sec" {
+variable "secondary_aws_region" {
   description = "Seller Region"
   type        = string
 }
